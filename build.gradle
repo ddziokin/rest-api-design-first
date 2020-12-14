@@ -9,13 +9,23 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '15'
 
 repositories {
+    jcenter()
     mavenCentral()
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    compile("org.apache.commons:commons-collections4:4.4")
+    compile("org.apache.commons:commons-lang3:3.9")
+    compile("org.projectlombok:lombok")
+
+    runtimeOnly 'com.h2database:h2'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 test {
