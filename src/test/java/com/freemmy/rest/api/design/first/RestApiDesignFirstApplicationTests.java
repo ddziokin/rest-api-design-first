@@ -1,4 +1,4 @@
-package com.freemmy.restapidesignfirst;
+package com.freemmy.rest.api.design.first;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

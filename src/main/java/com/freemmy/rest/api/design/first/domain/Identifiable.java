@@ -1,4 +1,4 @@
-package com.freemmy.restapidesignfirst.domain;
+package com.freemmy.rest.api.design.first.domain;
 
 public interface Identifiable<ID> {
 

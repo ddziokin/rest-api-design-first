@@ -1,7 +1,7 @@
-package com.freemmy.restapidesignfirst.rest;
+package com.freemmy.rest.api.design.first.rest;
 
-import com.freemmy.restapidesignfirst.domain.Car;
-import com.freemmy.restapidesignfirst.repository.CarRepository;
+import com.freemmy.rest.api.design.first.domain.Car;
+import com.freemmy.rest.api.design.first.repository.CarRepository;
 import lombok.AllArgsConstructor;
 import org.apache.commons.collections4.IterableUtils;
 import org.springframework.http.HttpStatus;
