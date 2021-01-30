@@ -1,0 +1,12 @@
+{
+  "library": "spring-mvc",
+  "dateLibrary": "java8",
+  "hideGenerationTimestamp": true,
+  "useBeanValidation": true,
+  "useTags": true,
+  "delegatePattern": true,
+  "apiPackage": "com.freemmy.rest.api.design.first.rest.gen.api",
+  "modelPackage": "com.freemmy.rest.api.design.first.rest.gen.model",
+  "modelNameSuffix": "DTO",
+  "invokerPackage": "com.freemmy.rest.api.design.first"
+}
